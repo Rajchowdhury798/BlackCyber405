@@ -423,7 +423,7 @@ class Main:
 		print(" [3] Create File")
 		print(" [4] 2008-9 Cloning")
 		print(" [5] 2010-15 Cloning")
-		print(" [6] Press 'E' & Exit Programming 😂")
+		print(" [6] Press 'E' & Exit Programming ")
 		print(" [E] Exit Programming\n")
 		TUTUL =input(" Choose : ")
 		if TUTUL in ["1", "01"]:
@@ -1301,7 +1301,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/Rajchowdhury798/akash-aprovel.txt").text
+	r1=requests.get("https://github.com/Rajchowdhury798/mew-approver.txt/blob/main/Approvel-king.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -1332,4 +1332,4 @@ def Subscraption():
 		os.system('am start https://wa.me/+8801932804722?text=' + tks)
 		Subscraption() 
 	
-Main()
+Subscraption()
